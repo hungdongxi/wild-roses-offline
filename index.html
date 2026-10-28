@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Wild Roses · Nhận dạng thực vật Việt Nam</title>
+    <meta
+      name="description"
+      content="Nhận dạng và tra cứu 12.810 loài thực vật có mạch của Việt Nam, dùng được cả khi không có mạng."
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Wild Roses" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <!-- The frame's colour, light and dark (globals.css --frame), behind the status bar -->
+    <meta name="theme-color" content="#dae0c8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#090e0a" media="(prefers-color-scheme: dark)" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-180.png" />
+    <link rel="icon" href="./icons/icon.svg" type="image/svg+xml" />
+    <script>
+      // Light or dark as the phone is set, before the first paint: the site's stylesheet keeps the
+      // page hidden until <html> has a theme
+      ;(() => {
+        const dark = matchMedia('(prefers-color-scheme: dark)')
+        const set = () => (document.documentElement.dataset.theme = dark.matches ? 'dark' : 'light')
+        set()
+        dark.addEventListener('change', set)
+      })()
+    </script>
+    <script type="module" crossorigin src="./assets/index-sRVz2jVe.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CINDvboS.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

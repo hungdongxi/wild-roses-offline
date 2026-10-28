@@ -1,0 +1,16 @@
+{
+  "name": "Wild Roses · Nhận dạng thực vật Việt Nam",
+  "short_name": "Wild Roses",
+  "description": "Nhận dạng và tra cứu 12.810 loài thực vật có mạch của Việt Nam, dùng được cả khi không có mạng.",
+  "lang": "vi",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#dae0c8",
+  "theme_color": "#dae0c8",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
