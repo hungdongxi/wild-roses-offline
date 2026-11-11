@@ -4,8 +4,8 @@
  * comes with a new list and version (written in by offline/vite.config.ts), is stored beside the
  * old one, and takes over when the app asks it to or next starts; the old set is then dropped.
  */
-const VERSION = "98e582465694"
-const FILES = ["./","assets/alegreya-italic-latin-BNGsTFBD.woff2","assets/alegreya-italic-latin-ext-pnGMTehi.woff2","assets/alegreya-italic-vietnamese-B_BjP3Cx.woff2","assets/alegreya-latin-BCUEsrKK.woff2","assets/alegreya-latin-ext-DYBa33G-.woff2","assets/alegreya-sans-sc-500-latin-CoGqyLsG.woff2","assets/alegreya-sans-sc-500-latin-ext-vN1Lj7FP.woff2","assets/alegreya-sans-sc-500-vietnamese-8NaPYAUx.woff2","assets/alegreya-sans-sc-700-latin-7H8cAEN8.woff2","assets/alegreya-sans-sc-700-latin-ext-BCBLRwPe.woff2","assets/alegreya-sans-sc-700-vietnamese-B5zHf4g_.woff2","assets/alegreya-vietnamese-B6l37gIf.woff2","assets/index-CINDvboS.css","assets/index-sRVz2jVe.js","flora.json","icons/icon-180.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"]
+const VERSION = "ff16969bc198"
+const FILES = ["./","assets/alegreya-italic-latin-BNGsTFBD.woff2","assets/alegreya-italic-latin-ext-pnGMTehi.woff2","assets/alegreya-italic-vietnamese-B_BjP3Cx.woff2","assets/alegreya-latin-BCUEsrKK.woff2","assets/alegreya-latin-ext-DYBa33G-.woff2","assets/alegreya-sans-sc-500-latin-CoGqyLsG.woff2","assets/alegreya-sans-sc-500-latin-ext-vN1Lj7FP.woff2","assets/alegreya-sans-sc-500-vietnamese-8NaPYAUx.woff2","assets/alegreya-sans-sc-700-latin-7H8cAEN8.woff2","assets/alegreya-sans-sc-700-latin-ext-BCBLRwPe.woff2","assets/alegreya-sans-sc-700-vietnamese-B5zHf4g_.woff2","assets/alegreya-vietnamese-B6l37gIf.woff2","assets/index-Bp9NodUO.css","assets/index-BvMuwJ5M.js","flora.json","icons/icon-180.png","icons/icon-192.png","icons/icon-512.png","icons/icon-maskable-512.png","icons/icon.svg","index.html","manifest.webmanifest"]
 const CACHE = `wild-roses-${VERSION}`
 
 self.addEventListener('install', (event) => {
